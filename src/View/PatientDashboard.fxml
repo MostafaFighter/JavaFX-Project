@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PatientController">
+   <children>
+      <Label alignment="CENTER" layoutX="296.0" layoutY="15.0" prefHeight="65.0" prefWidth="309.0" text="Patient Dashboard">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnShowFreeAppointments" layoutX="328.0" layoutY="486.0" mnemonicParsing="false" onAction="#ShowFreeAppointments" prefHeight="42.0" prefWidth="184.0" style="-fx-background-color: #3c40c6;" text="Show Free Appointments" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnShowBookedAppointments" layoutX="520.0" layoutY="486.0" mnemonicParsing="false" onAction="#ShowBookedAppointments" prefHeight="42.0" prefWidth="208.0" style="-fx-background-color: #3c40c6;" text="Show Booked Appointments" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="table" layoutX="173.0" layoutY="106.0" prefHeight="304.0" prefWidth="555.0">
+         <columns>
+            <TableColumn fx:id="IDColumn" prefWidth="78.0" text="ID" />
+            <TableColumn fx:id="DateColumn" prefWidth="124.0" text="Date" />
+            <TableColumn fx:id="DayColumn" prefWidth="129.0" text="Day" />
+            <TableColumn fx:id="TimeColumn" prefWidth="126.0" text="Time" />
+            <TableColumn fx:id="StatusColumn" prefWidth="97.0" text="Status" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnLogout" layoutX="28.0" layoutY="32.0" mnemonicParsing="false" onAction="#Logout" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: #ff5e57;" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBook" layoutX="174.0" layoutY="486.0" mnemonicParsing="false" onAction="#Book" prefHeight="42.0" prefWidth="147.0" style="-fx-background-color: #3c40c6;" text="Book Appointment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

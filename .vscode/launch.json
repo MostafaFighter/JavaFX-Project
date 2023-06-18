@@ -1,0 +1,95 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PatientController",
+            "request": "launch",
+            "mainClass": "Controller.PatientController",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "Controller.LoginSystem.Login",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Register",
+            "request": "launch",
+            "mainClass": "Controller.LoginSystem.Register",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "Controller.Login.Login",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "DoctorPatientsController",
+            "request": "launch",
+            "mainClass": "Controller.DoctorPatientsController",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "DoctorController",
+            "request": "launch",
+            "mainClass": "Controller.DoctorController",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "DoctorAppointmentsController",
+            "request": "launch",
+            "mainClass": "Controller.DoctorAppointmentsController",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "DoctorAppointmentsController",
+            "request": "launch",
+            "mainClass": "DoctorAppointmentsController",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "DoctorPatientsController",
+            "request": "launch",
+            "mainClass": "DoctorPatientsController",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "DoctorController",
+            "request": "launch",
+            "mainClass": "DoctorController",
+            "projectName": "Final Project_54355e10",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
